@@ -51,22 +51,15 @@
             letter-spacing: 1px;
         }
         .player-box {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            max-width: 100%;
-            background: #000;
+            background: #0a0a0a;
+            padding: 15px;
             border-radius: 12px;
             border: 1px solid #333;
+            text-align: center;
         }
-        .player-box iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+        audio {
             width: 100%;
-            height: 100%;
-            border: 0;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -78,16 +71,15 @@
         <p>San Marcos</p>
     </div>
 
-    <!-- RADIO ONLINE ESTABLE DE YOUTUBE LIVE -->
+    <!-- REPRODUCTOR DE RADIO MÚSICA CONTINUA (IBIZA GLOBAL) -->
     <div class="card">
         <div class="title">📻 RADIO CHILLI MIX</div>
         <div class="player-box">
-            <!-- Transmisión oficial en vivo 24/7 de Deep House sin anuncios -->
-            <iframe 
-                src="https://youtube.com" 
-                allow="autoplay; encrypted-media" 
-                allowfullscreen>
-            </iframe>
+            <p style="color: #00ffcc; font-weight: bold; margin: 0; font-size: 14px; letter-spacing: 1px;">• AL AIRE: IBIZA GLOBAL LIVE</p>
+            <!-- Transmisión directa oficial que no se cae ni se bloquea -->
+            <audio controls src="https://ibizaglobalradio.com">
+                Tu navegador no soporta este reproductor.
+            </audio>
         </div>
     </div>
 
