@@ -1,15 +1,82 @@
-<!-- REPRODUCTOR RADIO CHILLI: AHMET KILIC -->
-<div style="max-width: 100%; margin: 20px auto; padding: 15px; background: #111; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); text-align: center;">
-    <h3 style="color: #ff4500; font-family: sans-serif; margin-bottom: 15px; letter-spacing: 1px;">📻 RADIO CHILLI ONLINE</h3>
-    <p style="color: #aaa; font-family: sans-serif; font-size: 14px; margin-top: -10px; margin-bottom: 15px;">Al aire: Ahmet Kilic - Deep House Selection</p>
-    
-    <!-- Reproductor inteligente de SoundCloud (Se engancha solo) -->
-    <iframe 
-        width="100%" 
-        height="400" 
-        scrolling="no" 
-        frameborder="no" 
-        allow="autoplay" 
-        src="https://soundcloud.com">
-    </iframe>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilli Bar | Sitio Oficial</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #ff4500;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+        .header p {
+            color: #888;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: #111;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.8);
+            border: 1px solid #222;
+            box-sizing: border-box;
+        }
+        .radio-title {
+            color: #ff5500;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+        .radio-sub {
+            color: #aaa;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>CHILLI BAR</h1>
+        <p>San Marcos</p>
+    </div>
+
+    <div class="container">
+        <h3 class="radio-title">📻 RADIO CHILLI</h3>
+        <p class="radio-sub">Al aire: Ahmet Kilic (Deep House)</p>
+        
+        <!-- Reproductor Oficial Enlazado -->
+        <iframe 
+            width="100%" 
+            height="400" 
+            scrolling="no" 
+            frameborder="no" 
+            allow="autoplay" 
+            src="https://soundcloud.com">
+        </iframe>
+    </div>
+
+</body>
+</html>
